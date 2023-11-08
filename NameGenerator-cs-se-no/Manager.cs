@@ -100,7 +100,7 @@ namespace Generator_Jmen_05_11_2023_v1
                 string seEncoding = "ISO-8859-4";
                 string noEncoding = "UTF-8";*/
                 // Read the CSV data from a file
-                string filePath = $"csv\\{fileName}.csv";
+                string filePath = $"..\\..\\csv\\{fileName}.csv";
                 string[] lines = File.ReadAllLines(filePath, Encoding.GetEncoding(Enc));
 
                 for (int i = 0; i < lines.Length; i++)
@@ -131,8 +131,8 @@ namespace Generator_Jmen_05_11_2023_v1
                 foreach (string country in countries)
                 {
                     // Read the CSV data from a file
-                    string filePath1 = $"csv\\{country + gender}First.csv";
-                    string filePath2 = $"csv\\{country + gender}Last.csv";
+                    string filePath1 = $"..\\..\\csv\\{country + gender}First.csv";
+                    string filePath2 = $"..\\..\\csv\\{country + gender}Last.csv";
                     if (country == "cs") Enc = "Windows-1250";
                     string[] linesFirst = File.ReadAllLines(filePath1, Encoding.GetEncoding(Enc));
                     string[] linesLast = File.ReadAllLines(filePath2, Encoding.GetEncoding(Enc));

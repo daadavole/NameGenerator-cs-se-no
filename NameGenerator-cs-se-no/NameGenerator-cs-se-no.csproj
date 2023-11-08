@@ -87,6 +87,18 @@
       <Generator>ResXFileCodeGenerator</Generator>
       <LastGenOutput>Resources.Designer.cs</LastGenOutput>
     </EmbeddedResource>
+    <None Include="csv\csFemaleFirst.csv" />
+    <None Include="csv\csFemaleLast.csv" />
+    <None Include="csv\csMaleFirst.csv" />
+    <None Include="csv\csMaleLast.csv" />
+    <None Include="csv\noFemaleFirst.csv" />
+    <None Include="csv\noFemaleLast.csv" />
+    <None Include="csv\noMaleFirst.csv" />
+    <None Include="csv\noMaleLast.csv" />
+    <None Include="csv\seFemaleFirst.csv" />
+    <None Include="csv\seFemaleLast.csv" />
+    <None Include="csv\seMaleFirst.csv" />
+    <None Include="csv\seMaleLast.csv" />
     <None Include="Properties\Settings.settings">
       <Generator>SettingsSingleFileGenerator</Generator>
       <LastGenOutput>Settings.Designer.cs</LastGenOutput>
